@@ -1,0 +1,30 @@
+*{
+    margin: 0 ;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+.main_container{
+
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background: url("../img/Expedition33.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.login_container{
+
+    backdrop-filter: blur(3px);
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 5px;
+
+}
