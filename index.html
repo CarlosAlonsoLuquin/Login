@@ -11,54 +11,56 @@
     <div class="main_container">
       <div class="login_contariner">
         <h1>LOGIN</h1>
-        <div class="input_grup">
-          <input type="text" name="Username" placeholder="Username" />
+        <form action="app/AuthControler.php" method="POST"> 
+          <div class="input_grup">
+            <input type="text" name="Username" placeholder="Username" />
 
-          <svg
-            class="w-6 h-6 text-gray-800 dark:text-white"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            fill="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M12 4a4 4 0 1 0 0 8 4 4 0 0 0 0-8Zm-2 9a4 4 0 0 0-4 4v1a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-1a4 4 0 0 0-4-4h-4Z"
-              clip-rule="evenodd"
-            />
-          </svg>
-        </div>
-        <div class="input_grup">
-          <input type="password" name="password" placeholder="Password" />
-          <svg
-            class="w-6 h-6 text-gray-800 dark:text-white"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            fill="none"
-            viewBox="0 0 24 24"
-          >
-            <path
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M12 14v3m-3-6V7a3 3 0 1 1 6 0v4m-8 0h10a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1Z"
-            />
-          </svg>
-        </div>
-        <div class="from_botton"></div>
+            <svg
+              class="w-6 h-6 text-gray-800 dark:text-white"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M12 4a4 4 0 1 0 0 8 4 4 0 0 0 0-8Zm-2 9a4 4 0 0 0-4 4v1a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-1a4 4 0 0 0-4-4h-4Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </div>
+          <div class="input_grup">
+            <input type="password" name="password" placeholder="Password" />
+            <svg
+              class="w-6 h-6 text-gray-800 dark:text-white"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="none"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 14v3m-3-6V7a3 3 0 1 1 6 0v4m-8 0h10a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1Z"
+              />
+            </svg>
+          </div>
+          <div class="from_botton"></div>
 
-        <div>
-          <input type="checkbox" name="" />
-          <label for="">remerber me</label>
-        </div>
-        <a href="" class="Forgot_pass">Forgot Password?</a>
-        <div>
-          <button class="login_bottom">LOGIN</button>
+          <div>
+            <input type="checkbox" name="" />
+            <label for="">remerber me</label>
+          </div>
+          <a href="" class="Forgot_pass">Forgot Password?</a>
+          <div>
+            <button class="login_bottom">LOGIN</button>
+          </form>
           <label class="dont_acount">
             Don t havean account?
             <a href="">Register</a>
